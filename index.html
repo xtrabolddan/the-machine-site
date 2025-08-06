@@ -22,9 +22,39 @@
 
     <!-- Hero Section -->
     <section id="hero" class="hero">
-        <h1>Transform your brand with THE MACHINE™</h1>
-        <p>Strategy‑led AI mastery for the full creative and operational journey. Experience the future of marketing and operations, powered by human ingenuity and autonomous agents.</p>
+        <h1>Welcome to THE MACHINE™ – We Build Your Dreams</h1>
+        <p class="subheadline">Creative on Demand</p>
         <button class="primary-btn" onclick="document.getElementById('levels').scrollIntoView({ behavior: 'smooth' });">Start your journey</button>
+    </section>
+
+    <!-- Overview Section with Master Copy -->
+    <section id="overview" class="section overview">
+        <h2>Creative on demand – Welcome to THE MACHINE™</h2>
+        <div class="overview-grid">
+            <div class="overview-item">
+                <h3>WHAT IS IT?</h3>
+                <p>THE MACHINE™ is your AI‑powered creative department in a box. Built by ad pros for brand builders, it transforms raw ideas into full‑blown creative campaigns. From brand strategy to images, copy, layouts, and more, it syncs human input with machine execution. No fluff, no filler—just pure concept power.</p>
+            </div>
+            <div class="overview-item">
+                <h3>WHAT DOES IT DO?</h3>
+                <p>THE MACHINE™ maps your brand DNA, distills it into a campaign‑ready brief, then generates headlines, visuals, layouts, and even music or voiceovers—on command. Need five taglines? A series of Midjourney prompts? A pitch deck? A retail concept? Done. It’s not a tool. It’s your creative superteam—stackable, trainable, and wildly fast.</p>
+            </div>
+            <div class="overview-item">
+                <h3>WHY IS IT GROUNDBREAKING?</h3>
+                <p>Because creative teams don’t need more chaos. They need clarity, speed, and smart systems that think the way they do. THE MACHINE™ integrates strategy, art direction, design systems, copywriting frameworks, and emotional storytelling into a single, intuitive flow. The future of branding isn’t linear—it’s dynamic. This is how we build smarter.</p>
+            </div>
+            <div class="overview-item">
+                <h3>WANT IN?</h3>
+                <p>THE MACHINE™ is currently in pre‑launch BETA with limited early access for CMOs, agencies, and creative leaders. If you want to test‑drive the future of concepting—and help shape what’s next—reach out now. Great ideas shouldn’t take weeks. With THE MACHINE™, they take minutes.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section id="video" class="section video">
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/l9bfB8fkmBg?rel=0&amp;modestbranding=1&amp;loop=1&amp;playlist=l9bfB8fkmBg" title="THE MACHINE™ demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
     </section>
 
     <!-- AI Transformation Journey -->
@@ -35,7 +65,7 @@
             <p>For teams new to AI: keynotes, boot camps, fundamentals of prompt engineering and safe exploration.</p>
             <p><strong>Goals:</strong> Build foundational understanding, inspire teams and identify initial use cases.</p>
             <ul>
-                <li>Keynote + Q&A session</li>
+                <li>Keynote + Q&amp;A session</li>
                 <li>Three‑day boot camp</li>
                 <li>Access to DIY learning hub</li>
             </ul>
@@ -45,9 +75,9 @@
             <p>For companies experimenting with AI: deeper workshops to build confidence, train leaders and plan adoption.</p>
             <p><strong>Goals:</strong> Start using AI daily, align leadership, develop internal champions and document guidelines.</p>
             <ul>
-                <li>Leadership & strategy workshop</li>
+                <li>Leadership &amp; strategy workshop</li>
                 <li>Advanced prompt training</li>
-                <li>Workflow & talent audit</li>
+                <li>Workflow &amp; talent audit</li>
                 <li>Roadmap for adoption</li>
             </ul>
         </div>
@@ -56,10 +86,10 @@
             <p>For teams ready to operationalise AI: build pilot agentic workflows and integrate with your stack.</p>
             <p><strong>Goals:</strong> Automate core processes, prototype custom GPTs, measure impact and plan expansion.</p>
             <ul>
-                <li>Discovery sprint & data ingestion</li>
+                <li>Discovery sprint &amp; data ingestion</li>
                 <li>Custom GPT mini‑Machine</li>
                 <li>Live campaign pilot</li>
-                <li>Metrics dashboard & blueprint</li>
+                <li>Metrics dashboard &amp; blueprint</li>
             </ul>
         </div>
         <div class="level">
@@ -67,105 +97,118 @@
             <p>For enterprises scaling AI: unify systems, ensure governance and integrate across departments.</p>
             <p><strong>Goals:</strong> Govern at scale, integrate DAM/CRM/media systems, deliver full‑stack AI‑native marketing.</p>
             <ul>
-                <li>Enterprise Machine with IP ingestion & private cloud</li>
-                <li>Governance & SSO integration</li>
-                <li>Change management & analytics</li>
-                <li>Expansion plan for Level 4</li>
+                <li>Enterprise Machine with IP ingestion &amp; private cloud</li>
+                <li>Integration with DAM/CRM/media platforms</li>
+                <li>Change‑management &amp; governance frameworks</li>
+                <li>Analytics &amp; performance dashboards</li>
             </ul>
         </div>
         <div class="level">
-            <h3>Level 4: AI Native</h3>
-            <p>For organisations ready to white‑label the Machine and co‑create ventures. Build advanced AI products and licence your own agentic platform.</p>
-            <p><strong>Goals:</strong> Become AI‑native and co‑create new AI‑powered ventures.</p>
+            <h3>Level 4: AI Native</h3>
+            <p>For pioneers co‑creating AI products: venture partnerships, white‑labelling and new revenue models.</p>
+            <p><strong>Goals:</strong> Launch AI‑native services, build venture partnerships, and licence your Machine for others.</p>
             <ul>
-                <li>Joint venture & licensing</li>
-                <li>Custom AI product development</li>
-                <li>Ongoing support & co‑innovation</li>
+                <li>Co‑develop AI product or service</li>
+                <li>White‑label your Machine for partners</li>
+                <li>Equity or revenue‑share structures</li>
             </ul>
         </div>
     </section>
 
     <!-- Quiz Section -->
-    <section id="quiz" class="section quiz">
-        <h2>Find Your Level</h2>
-        <h3>Self‑Assessment Quiz</h3>
+    <section id="quiz" class="section">
+        <h2>Self‑Assessment Quiz</h2>
         <form id="quiz-form">
-            <div>
-                <label>How familiar is your team with AI concepts?</label>
-                <label><input type="radio" name="q1" value="0" required> Not at all</label>
-                <label><input type="radio" name="q1" value="1"> Somewhat</label>
-                <label><input type="radio" name="q1" value="2"> Very familiar</label>
+            <div class="quiz-question">
+                <label>1. How familiar is your team with AI terminology and concepts?</label>
+                <input type="radio" name="q1" value="0" required> Not at all
+                <input type="radio" name="q1" value="1"> Somewhat
+                <input type="radio" name="q1" value="2"> Very
             </div>
-            <div>
-                <label>How often do you use AI tools at work?</label>
-                <label><input type="radio" name="q2" value="0" required> Rarely</label>
-                <label><input type="radio" name="q2" value="1"> A few times a week</label>
-                <label><input type="radio" name="q2" value="2"> Daily</label>
+            <div class="quiz-question">
+                <label>2. How often do team members use AI tools in their daily work?</label>
+                <input type="radio" name="q2" value="0" required> Never
+                <input type="radio" name="q2" value="1"> Sometimes
+                <input type="radio" name="q2" value="2"> Frequently
             </div>
-            <div>
-                <label>Is there executive alignment and a defined AI strategy?</label>
-                <label><input type="radio" name="q3" value="0" required> No strategy</label>
-                <label><input type="radio" name="q3" value="1"> Partial alignment</label>
-                <label><input type="radio" name="q3" value="2"> Fully aligned</label>
+            <div class="quiz-question">
+                <label>3. How integrated are AI workflows across departments?</label>
+                <input type="radio" name="q3" value="0" required> Siloed or inconsistent
+                <input type="radio" name="q3" value="1"> Some integration
+                <input type="radio" name="q3" value="2"> Fully integrated
             </div>
-            <div>
-                <label>How integrated are AI systems across your departments?</label>
-                <label><input type="radio" name="q4" value="0" required> Not integrated</label>
-                <label><input type="radio" name="q4" value="1"> Some integration</label>
-                <label><input type="radio" name="q4" value="2"> Fully integrated</label>
+            <div class="quiz-question">
+                <label>4. Does your organisation have policies and governance for AI?</label>
+                <input type="radio" name="q4" value="0" required> None
+                <input type="radio" name="q4" value="1"> Drafted but not enforced
+                <input type="radio" name="q4" value="2"> Fully documented &amp; enforced
             </div>
-            <div>
-                <label>Are you ready to co‑develop AI products and licence your own platform?</label>
-                <label><input type="radio" name="q5" value="0" required> No</label>
-                <label><input type="radio" name="q5" value="1"> Maybe</label>
-                <label><input type="radio" name="q5" value="2"> Yes</label>
+            <div class="quiz-question">
+                <label>5. Are you exploring new AI products or revenue models?</label>
+                <input type="radio" name="q5" value="0" required> No
+                <input type="radio" name="q5" value="1"> Considering
+                <input type="radio" name="q5" value="2"> Already in progress
             </div>
-            <button type="submit">Evaluate</button>
+            <button class="primary-btn" type="submit">Get my recommendation</button>
         </form>
-        <div id="result" class="result"></div>
+        <div id="result"></div>
     </section>
 
     <!-- Magic Section -->
-    <section id="magic" class="magic">
+    <section id="magic" class="section">
         <h2>The Magic of THE MACHINE™</h2>
-        <p>The Machine seamlessly blends creative mastery with technical execution, orchestrating research, ideation, production and measurement into a single agentic workflow.</p>
-        <div class="img-container">
-            <img src="https://images.unsplash.com/photo-1526378722484-6fdc4d4458d3?auto=format&fit=crop&w=800&q=80" alt="Research and Insight">
-            <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80" alt="Creative Ideation">
-            <img src="https://images.unsplash.com/photo-1507429863101-0e78a5c3f551?auto=format&fit=crop&w=800&q=80" alt="Deployment & Measurement">
+        <p>Experience the end‑to‑end journey: strategy, creative, content production and real‑time analytics. Our machine orchestrates AI tools and human insight to deliver brand‑building at unprecedented speed and quality.</p>
+        <div class="magic-grid">
+            <div class="magic-item">
+                <img src="https://images.unsplash.com/photo-1516893848345-cf981ddaeac4?auto=format&fit=crop&w=600&q=60" alt="Research illustration">
+                <p>Research &amp; Diagnosis</p>
+            </div>
+            <div class="magic-item">
+                <img src="https://images.unsplash.com/photo-1559718062-91ab0730f0e6?auto=format&fit=crop&w=600&q=60" alt="Ideation illustration">
+                <p>Ideation &amp; Concepting</p>
+            </div>
+            <div class="magic-item">
+                <img src="https://images.unsplash.com/photo-1518779578993-ec3579fee39e?auto=format&fit=crop&w=600&q=60" alt="Design illustration">
+                <p>Design &amp; Production</p>
+            </div>
+            <div class="magic-item">
+                <img src="https://images.unsplash.com/photo-1474631245212-32dc3c8310c6?auto=format&fit=crop&w=600&q=60" alt="Deployment illustration">
+                <p>Deployment &amp; Optimisation</p>
+            </div>
         </div>
     </section>
 
     <!-- About Section -->
-    <section id="about" class="about section">
-        <h2>About Us</h2>
-        <p>THE MACHINE™ was founded by veteran creatives and technologists. We blend decades of award‑winning strategy and craft with state‑of‑the‑art AI orchestration to deliver results no single tool can match.</p>
+    <section id="about" class="section">
+        <h2>About THE MACHINE™</h2>
+        <p>We’re a collective of award‑winning creatives, strategists and technologists. Our mission: build an AI‑powered co‑creation platform that matches human intuition with machine precision. We believe the future of brand‑building is hybrid: part human, part AI—fully bold.</p>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="contact section">
-        <h2>Contact</h2>
-        <p>Ready to transform? Start your journey today.</p>
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
         <form id="contact-form">
-            <input type="text" id="name" placeholder="Your Name" required>
-            <input type="email" id="email" placeholder="Email" required>
-            <textarea id="message" placeholder="What would you like to discuss?" required></textarea>
-            <button type="submit">Send</button>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="text" name="company" placeholder="Company Name">
+            <textarea name="message" placeholder="How can we help?" rows="4" required></textarea>
+            <button class="primary-btn" type="submit">Submit</button>
         </form>
     </section>
 
     <!-- Booking Section -->
-    <section id="booking" class="section booking">
+    <section id="booking" class="section">
         <h2>Book a Demo</h2>
-        <div class="calendly-inline-widget" data-url="https://calendly.com/dan-xtrabold/30min" style="min-width:320px;height:630px;"></div>
-        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+        <div id="schedule" class="schedule-container">
+            <div class="calendly-inline-widget" data-url="https://calendly.com/dan-xtrabold/30min" style="min-width:320px;height:630px;"></div>
+        </div>
     </section>
 
     <!-- Footer -->
-    <footer>
+    <footer class="footer">
         <div class="footer-links">
-            <a href="https://xtrabold.ai" target="_blank" rel="noopener">XTRABOLD.ai</a>
-            <a href="https://creativeglu.ai" target="_blank" rel="noopener">CreativeGlu.ai</a>
+            <a href="https://xtrabold.ai">XTRABOLD.ai</a>
+            <a href="https://creativeglu.ai">CreativeGlu.ai</a>
         </div>
         <p>&copy; 2025 THE MACHINE™. All rights reserved.</p>
     </footer>
