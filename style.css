@@ -1,0 +1,344 @@
+/*
+ * Global styles for THE MACHINE™ website
+ *
+ * The site uses a dark theme with vibrant magenta accents to evoke
+ * the fusion of cutting‑edge technology and bold creativity. Text
+ * remains highly legible against deep backgrounds and the layout
+ * adapts elegantly across screen sizes.
+ */
+
+/* CSS reset and typography */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: 'Inter', Arial, sans-serif;
+    background-color: #0d0d0e;
+    color: #e7e7e7;
+    line-height: 1.6;
+}
+
+/* Navigation bar */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #121214;
+    padding: 0.8rem 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #f0f0f0;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.25rem;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    font-size: 0.95rem;
+    color: #cccccc;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover,
+.nav-links li a:focus {
+    color: #e20074;
+}
+
+/* Section styles */
+.section {
+    padding: 4.5rem 1.5rem;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    color: #ffffff;
+}
+
+/* Hero section */
+.hero {
+    height: 85vh;
+    padding-top: 7rem;
+    background: linear-gradient(135deg, #1e1e2e 0%, #0d0d0e 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    max-width: 700px;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    color: #d2d2d2;
+}
+
+.primary-btn {
+    background-color: #e20074;
+    color: #ffffff;
+    border: none;
+    padding: 0.8rem 1.6rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.primary-btn:hover {
+    background-color: #c60064;
+    transform: translateY(-2px);
+}
+
+/* Levels cards */
+.level {
+    background-color: #1a1a1f;
+    border-radius: 6px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.level h3 {
+    color: #e20074;
+    margin-bottom: 0.5rem;
+}
+
+.level ul {
+    list-style: disc;
+    padding-left: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.level ul li {
+    margin-bottom: 0.3rem;
+}
+
+/* Quiz section */
+.quiz h3 {
+    margin-top: 0.5rem;
+}
+
+.quiz form {
+    margin-top: 1rem;
+    background-color: #1a1a1f;
+    padding: 1.5rem;
+    border-radius: 6px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.quiz form div {
+    margin-bottom: 1rem;
+}
+
+.quiz form label {
+    display: block;
+    margin-bottom: 0.4rem;
+    font-size: 0.95rem;
+    color: #dddddd;
+}
+
+.quiz form input[type="radio"] {
+    margin-right: 0.3rem;
+}
+
+.quiz form button {
+    display: inline-block;
+    background-color: #e20074;
+    color: #ffffff;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.quiz form button:hover {
+    background-color: #c60064;
+}
+
+.result {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #e20074;
+}
+
+/* Magic section */
+.magic {
+    background-color: #14141a;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.magic p {
+    max-width: 800px;
+    margin: 0 auto 2rem auto;
+    text-align: center;
+    color: #d2d2d2;
+}
+
+.img-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.img-container img {
+    width: calc(33.333% - 1rem);
+    max-width: 100%;
+    border-radius: 6px;
+    object-fit: cover;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease;
+}
+
+.img-container img:hover {
+    transform: scale(1.03);
+}
+
+/* About section */
+.about {
+    background-color: #1a1a1f;
+    border-radius: 6px;
+    padding: 2rem;
+    margin-top: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.about p {
+    max-width: 800px;
+    margin: 0 auto;
+    color: #d2d2d2;
+}
+
+/* Contact section */
+.contact form {
+    max-width: 600px;
+    margin: 1rem auto 0 auto;
+    background-color: #1a1a1f;
+    padding: 1.5rem;
+    border-radius: 6px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.contact input,
+.contact textarea {
+    background-color: #2a2a2f;
+    border: none;
+    border-radius: 4px;
+    padding: 0.8rem;
+    color: #ffffff;
+    font-size: 0.95rem;
+    resize: vertical;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+    outline: 2px solid #e20074;
+    outline-offset: 0;
+}
+
+.contact button {
+    align-self: flex-start;
+    background-color: #e20074;
+    color: #ffffff;
+    border: none;
+    padding: 0.7rem 1.4rem;
+    font-size: 0.95rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact button:hover {
+    background-color: #c60064;
+}
+
+/* Booking section */
+.booking {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+/* Footer */
+footer {
+    background-color: #121214;
+    color: #9a9a9a;
+    text-align: center;
+    padding: 1.5rem 1rem;
+}
+
+footer .footer-links {
+    margin-bottom: 0.5rem;
+}
+
+footer .footer-links a {
+    color: #cccccc;
+    margin: 0 0.8rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer .footer-links a:hover {
+    color: #e20074;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .nav-links {
+        gap: 0.8rem;
+    }
+    .hero h1 {
+        font-size: 2rem;
+    }
+    .hero p {
+        font-size: 1rem;
+    }
+    .img-container img {
+        width: calc(50% - 1rem);
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-links {
+        display: none;
+    }
+    .hero h1 {
+        font-size: 1.6rem;
+    }
+    .img-container img {
+        width: 100%;
+    }
+}
